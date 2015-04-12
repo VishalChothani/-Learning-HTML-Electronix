@@ -1,0 +1,96 @@
+.cd-dropdown,
+.cd-select {
+	position: relative;
+	height : 30px;
+	display: block;
+ 	top: -17px;
+    	width: 83px;
+	left :850px;
+
+}
+
+.cd-dropdown > span {
+	width: 100%;
+	color: #999;
+	border-radius : 5px;
+	font-weight: 700;
+	font-size: 16px;
+	background: #fff;
+	display: block;
+	padding: 0 25px 0 0px;
+	position: relative;
+	cursor: pointer;
+	background-color : #AB9C85;
+	color : black;
+	font-family : arial;
+	font-size : 12px;
+	font-weight : normal;
+	padding : 5px;
+}
+
+.cd-dropdown > span:after {
+	content: '\25BC';
+	position: absolute;
+	right: 0px;
+	width: 20px;
+	text-align: center;
+	font-size: 12px;
+	height: 100%;
+	line-height: 24px;
+	border-left: 1px solid #ddd;
+	background-color : #D7CDBE;
+	border-radius : 5px;
+	top : 0px;
+}
+
+.cd-dropdown.cd-active > span:after {
+	content: '\25B2';
+}
+
+.cd-dropdown ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	background-color : #AB9C85;
+}
+
+.cd-dropdown ul li {
+	display: block;
+}
+
+.header-menu .cd-dropdown ul li span {
+	width: 100%;
+	background: #fff;
+	line-height: 35px;
+	display: block;
+	color: black;
+	cursor: pointer;
+	font-weight: 700;
+	background-color : #AB9C85;
+	padding : 0px;
+}
+
+.cd-dropdown > span,
+.cd-dropdown ul li span {
+	-webkit-backface-visibility: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.cd-dropdown > span span[class^="icon-"],
+.cd-dropdown > span span[class*=" icon-"]{
+	padding: 0 30px 0 45px;
+}
+
+/* Select fallback styling */
+.cd-select {
+	border: 1px solid #ddd;
+}
+
+

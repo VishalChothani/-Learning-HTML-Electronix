@@ -1,0 +1,106 @@
+	h2{
+		color:#8091b0;
+	}
+	div#slideShowItems{
+	  	height:115px;
+		overflow:hidden;
+		position:relative;
+	}
+	
+	div#slideShowItems div{
+		width:626px;
+	}
+	
+	
+	div#slideShowItems img {
+		margin-right:30px;
+		float:left;
+	}
+	
+	ul#slideShowCount{
+		margin:0px;
+		padding:0px;
+		width:25%;
+		float : left;
+	}
+	ul#slideShowCount li.slide{
+		line-height:14px;
+		float:right;
+		cursor:pointer;
+		width:26px;
+		height:18px;
+		display:block;
+		background: transparent url(tabs.jpg) no-repeat scroll left top;
+	}
+	
+	ul#slideShowCount li.slide span{
+		padding: 5px 11px 6px 8px;
+		color: #686E78;
+		font-family : arial;
+		text-align : center;
+		font-weight:normal;
+		font-size:10px;
+		background-image : url("../images/pag_bg.png");
+		background-repeat : no-repeat;
+	}
+	ul#slideShowCount li.slide span:hover{
+		background-image : url("../images/pag_bg_a.gif");
+		background-repeat : no-repeat;
+		color : purple;
+	}
+	ul#slideShowCount li.slide:hover{
+		background-position:left -18px;
+
+	}
+	
+	ul#slideShowCount li.slide.selectedTab{
+		background-position:left -18px;
+	}
+	div#slideShow{
+float : left;
+		width:100%;
+	}
+
+
+
+
+.logo
+{
+	width : 31.7%;
+	float : left;
+}
+
+.header-slide
+{
+	width : 53.8%;
+	float : left;
+	padding: 15px 30px;
+}
+
+.slider-heading
+{
+	color: #B72C24;
+    	font-size: 15px;
+    	font-weight: bold;
+	font-family : arial;
+	margin : 0px;
+	padding : 0px;
+}
+
+#slideShowItems  p
+{
+	color: #FFFFFF;
+	font-size: 11.5px;
+	line-height: 15px;
+	padding: 5px 0;
+	text-align: justify;
+	font-family : arial;
+	margin : 0px;
+	padding : 0px;
+	margin-top : 5px;
+}
+
+.header_divider
+{
+	float : left;
+}

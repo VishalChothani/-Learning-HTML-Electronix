@@ -1,0 +1,22 @@
+<products>
+	<laptop>
+		<disp>In stoc</disp>
+		<gara>24 lumi</gara>
+		<tip>Mic</tip>
+		<pretul>TVA</pretul>
+	</laptop>
+
+	<iphone>
+		<disp>In pack</disp>
+		<gara>14 lumi</gara>
+		<tip>phone</tip>
+		<pretul>TVB</pretul>
+	</iphone>
+
+	<webcam>
+		<disp>In comp</disp>
+		<gara>16 lumi</gara>
+		<tip>Cam</tip>
+		<pretul>TVC</pretul>
+	</webcam>
+</products>

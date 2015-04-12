@@ -1,0 +1,125 @@
+
+.product-box
+{
+	clear : both;
+	float : left;
+	margin-top : 10px;
+}
+
+.product-box-top
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/product_box_top.gif");
+	width : 173px;
+	height : 10px;
+
+}
+
+.product-box-bottom
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/product_box_bottom.gif");
+	width : 173px;
+	height : 10px;
+
+}
+
+.product-box-content
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/product_box_center.gif");
+	background-repeat : repeat-y;
+	width : 173px;
+	
+}
+
+.p-content
+{
+	border : none;
+}
+
+.product-tags
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/products_details_bg.gif");
+	width : 173px;
+	height : 31px;
+	margin-top : 5px;
+}
+
+.product-tags img
+{
+	float :left ; 
+	margin-top : 5px;
+	margin-left : 5px;
+}
+
+.details
+{
+	float : right;
+	background-image: url("../images/square-blue-add.gif");
+	background-repeat: no-repeat;
+	font-family : arial;
+	font-size : 11px;
+	padding-left : 20px;
+	margin-right : 15px;
+	height : 16px;
+	margin-top: 6px;
+	background-position : left;
+}
+
+.detail-button 
+{
+	text-decoration : none;
+	color : #0FA0DD;
+	cursor : pointer;
+}
+
+.product-row1
+{
+	clear : both;
+	float : left;
+}
+
+.product-laptop
+{
+	clear : none;
+	float : left;
+}
+
+.product-iphone
+{
+	clear : none;
+	float : left;
+	margin-left : 20px;
+}
+
+.product-iphone .product-box img
+{
+	margin-left : 35%;
+}
+
+.product-samsung
+{
+	clear : none;
+	float : left;
+	margin-left : 20px;
+}
+
+.product-samsung .product-box img
+{
+	margin-left : 16%;
+}
+
+.product-row2 
+{
+	clear : both;
+	float : left;
+	margin-top : 10px;
+}
+
+

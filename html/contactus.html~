@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Electronix Contact Us</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" >				<!--Including the meta tag-->
+		<meta type="keywords" content="Contact us">
+		<meta type="description" content="Electronix Contact us">
+		<meta type="author" content="Team Evolution">
+
+		<link rel="stylesheet" href="../css1/elec-common.css" type="text/css">
+		<link rel="stylesheet" href="../css1/contactus.css" type="text/css">
+
+		<script src="../js/jQuery_lib.js"></script>
+<!--		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="../js/slideshow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/errors.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>		
+		<script src="../js/cookie_validate.js" type="text/javascript" charset="utf-8"></script>
+
+		<link rel="stylesheet" type="text/css" href="../css1/slideshow.css" />		
+		<link rel="stylesheet" type="text/css" href="../css/style5.css" />	<!--Drop Down-->
+		<script src="../js/modernizr.custom.63321.js"></script>	<!--Drop Down-->
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="language">
+					<div class="language-content">
+						<div class="language-images">
+							<label>Languages:</label>
+							<span class="flags">
+								<img src="../images/en.gif" alt="England" />
+								<img src="../images/de.gif" alt="Denmark" />
+							</span>
+						</div>
+						<form action="#" method="post" class="language-form">
+							<label>Advanced Search</label>
+							<input type="text" value="" />
+							<input id="search-button" type="button" value="" />
+						</form>
+					</div>
+				</div>
+
+				<div class="header-title">
+					<div class="logo">
+						<a href="../html/home.html"><img src="../images/logo.png" alt="logo" /></a>
+					</div>
+					<img class="header_divider" src="../images/header_divider.png" alt="header_divider" height="164" width="1px" />
+					<div class="header-slide">
+						<div id="slideShow">
+							<div id="slideShowItems">
+								<div>
+									<img alt="" src="../images/laptop.png" border="0" />
+									<h2 class="slider-heading">Samsung GX 2004 LM</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+									<span class="slide-botton" id="slide-botton1"><a href="details.html">details</a></span>
+									
+								</div>
+								<div>
+									<img alt="" src="../images/iphone.png" border="0" />
+									<h2 class="slider-heading">IPhone Apple</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+									<span class="slide-botton" id="slide-botton2"><a href="details.html">details</a></span>
+								</div>
+								<div>
+									<img alt="" src="../images/camera.png" border="0" />
+									<h2 class="slider-heading">Webcam</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+									<span class="slide-botton" id="slide-botton3"><a href="details.html">details</a></span>
+								</div>
+								<div>
+									<img alt="" src="../images/laptop.png" border="0" />
+									<h2 class="slider-heading">Samsung GX 2004 LM</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+									<span class="slide-botton" id="slide-botton4"><a href="details.html">details</a></span>
+								</div>
+								<div>
+									<img alt="" src="../images/iphone.png" border="0" />
+									<h2 class="slider-heading">IPhone Apple</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+									<span class="slide-botton" id="slide-botton5"><a href="details.html">details</a></span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<img class="header_divider" src="../images/header_divider.png" alt="header_divider" height="164" width="1px" />
+
+				</div>
+
+				<div class="header-nav">
+
+					<img src="../images/menu_left.gif" class="menu-left" alt="menu_left" />
+						<div class="header-menu">
+							<ul>
+								<li><a href="home.html" class="home" title="home" >Home</a></li>
+								<li><a href="#" class="products" title="products">Products</a></li>
+								<li><a href="#" class="specials" title="specials">Specials</a></li>
+								<li><a href="#" class="account" title="account">My Account</a></li>
+								<li><a href="#" class="signup" title="signup">Sign Up</a></li>
+								<li><a href="#" class="shipping" title="shipping">Shipping</a></li>
+								<li><a href="#" class="contactus active" title="contactus">Contact Us</a></li>
+								<li><a href="#" class="currencies" title="currencies">Currencies</a>
+									<span>
+										<select id="cd-dropdown" class="cd-select">
+											<option value="-1" selected>US Dollor</option>
+											<option value="1" >Yen</option>
+											<option value="2" >Rupee</option>
+											<option value="3" >Pound</option>
+										</select>
+									</span>
+								</li>
+							</ul>
+						</div>
+	
+					<img src="../images/menu_right.gif" class="menu-right" alt="menu_right" />
+
+				</div>
+				<div class="nav-path">
+					<span>Navigation: <a href="home.html" title="home">Home </a> &lt; <span class="current">Category name</span><span>
+				</div>
+				
+			</header>
+
+			<section>
+				<nav>
+					<div class="nav-menu">
+						<div class="menu-title">Categories</div>
+						<div class="nav-menu-list">
+							<ul>
+								<li><span></span><a href="#" title="processors" >Processors</a></li>
+								<li><span></span><a href="#" title="motherboards" >Motherboards</a></li>
+								<li><span></span><a href="#" title="desktops" >Desktops</a></li>
+								<li><span></span><a href="#" title="laptop" >Laptops & Notebooks</a></li>
+								<li><span></span><a href="#" title="processors" >Processors</a></li>
+								<li><span></span><a href="#" title="motherboards" >Motherboards</a></li>
+								<li><span></span><a href="#" title="processors" >Processors</a></li>
+								<li><span></span><a href="#" title="motherboards" >Motherboards</a></li>
+								<li><span></span><a href="#" title="desktops" >Desktops</a></li>
+								<li><span></span><a href="#" title="laptop" >Laptops & Notebooks</a></li>
+								<li><span></span><a href="#" title="processors" >Processors</a></li>
+								<li><span></span><a href="#" title="motherboards" >Motherboards</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="product-sale">
+						<div class="menu-title products">Special Products</div>
+						<div class="product-content">
+							<h3 class="products-title">Motorola 156 MX-VL</h3>
+							<img src="../images/laptop.png" alt="laptop" />
+							<div class="products-title prize"><strike>350$</strike> &nbsp;270$</div>
+						</div>
+					</div>
+
+					<div class="news-letter">
+						<div class="menu-title products">Newsletter</div>
+						<div class="product-content">
+							<form action="#" method="post">
+								<input type="text" placeholder="your email" height="1" width="1" id="email"/>
+								<label id="email_error"></label>
+							</form>
+							<div class="news-join"><a href="#" title="join" id="valid-email">join</a></div>
+						</div>
+					</div>
+					<div class="amd">
+						<img src="../images/bann2.jpg" alt="laptop" />
+					</div>
+				</nav>
+
+				<article>
+					<div class="article-content">
+						<div class="article-heading">
+							<h3 class="heading-text">Contact Us</h3>
+						</div>
+					</div>
+					<div class="contact-form">
+						<div class="form-top"></div>
+
+
+						<form class="form-content" action="#" method="post">
+							<div class="input-wrapper">
+								<label>Name*:</label>
+								<input type="text" width="600" height="30" id="user_name"/>
+								
+							</div>
+							<div class="input-wrapper label-error"><label id="name_error"></label></div>
+
+							<div class="input-wrapper">
+								<label>Email*:</label>
+								<input type="text" width="600" height="30" id="valid-email1"/>
+							</div>
+							<div class="input-wrapper label-error"><label id="email_error1"></label></div>
+
+							<div class="input-wrapper">
+								<label>Phone*:</label>
+								<input type="text" width="600" height="30" id="phone_no"/>
+							</div>
+							<div class="input-wrapper label-error"><label id="phone_error"></label></div>
+
+							<div class="input-wrapper">
+								<label>Company*:</label>
+								<input type="text" width="600" height="30" id="company_name"/>
+								
+							</div>
+							<div class="input-wrapper label-error"><label id="company_error"></label></div>
+
+							<div class="input-wrapper message-area">
+								<label>Message:</label>
+								<textarea cols="1" rows="1"></textarea>
+							</div>
+							<div class="input-wrapper">
+								<input type="submit" class="contact-submit" value="send"/>
+							</div>
+							<div class="input-wrapper label-error"><label id="form_error"></label></div>
+							
+
+						</form>
+						<div class="form-bottom"></div>
+
+					</div>
+				</article>
+
+				<aside>
+					<div class="shopping-cart">
+						<h3 class="cart-title">Shopping cart</h3>
+						<div class="cart-item">
+							<p>3 items</p>
+							<div><span>Total: </span>350$</div>
+						</div>
+						<img src="../images/shoppingcart.png" alt="shoppingcart" />
+					</div>
+
+					<div class="product-sale">
+						<div class="menu-title products">What's new</div>
+						<div class="product-content">
+							<h3 class="products-title">Motorola 156 MX-VL</h3>
+							<img src="../images/p2.gif" alt="laptop" />
+							<div class="products-title prize"><strike>350$</strike> &nbsp;270$</div>
+						</div>
+					</div>
+
+				
+					<div class="nav-menu aside-menu">
+						<div class="menu-title">Manufactures</div>
+						<div class="nav-menu-list">
+							<ul>
+								<li><span></span><a href="#" title="sony" >Sony</a></li>
+								<li><span></span><a href="#" title="samsung" >Samsung</a></li>
+								<li><span></span><a href="#" title="daewoo" >Daewoo</a></li>
+								<li><span></span><a href="#" title="lg" >LG</a></li>
+								<li><span></span><a href="#" title="fujitsu" >Fujitsu Siemens</a></li>
+								<li><span></span><a href="#" title="motorola" >Motorola</a></li>
+								<li><span></span><a href="#" title="phillips" >Phillips</a></li>
+								<li><span></span><a href="#" title="beko" >Beko</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="amd">
+						<img src="../images/bann1.jpg" alt="laptop" />
+					</div>
+				</aside>
+			</section>
+
+			<footer>
+				<div class="footer-logo">
+					<img src="../images/footer_logo.png" alt="footer_logo" />
+				</div>
+				<div class="footer-center"> 
+					<p>Template name. All Rights Reserved</p>
+					<p>2008</p>
+					<img src="../images/csscreme.jpg" alt="csscreme" />
+					<img class="payment" src="../images/payment.gif" alt="payment" /> 
+				</div>
+				<div class="footer-menu-list">
+					<ul>
+						<li><a href="#" title="home" >home</a></li>
+						<li><a href="#" title="about" >about us</a></li>
+						<li><a href="#" title="site-map" >sitemap</a></li>
+						<li><a href="#" title="rss" >rss</a></li>
+						<li><a href="#" title="contact-us" >contact us</a></li>
+					</ul>
+				</div>
+
+			</footer>
+		</div>
+	</body>
+</html>

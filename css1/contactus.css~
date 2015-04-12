@@ -1,0 +1,110 @@
+.nav-path a
+{
+	text-decoration : underline;
+}
+
+.nav-path .current
+{
+	color : #12A1DE;
+}
+
+.contact-form 
+{
+	clear : both;
+	float : left;
+	margin-top : 10px;
+ 	margin-left: 3px;
+}
+
+.form-top
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/details_box_top.gif");
+	width : 554px;
+	height : 12px;
+
+}
+
+.form-content
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/details_box_center.gif");
+	background-repeat : repeat-y;
+	width : 554px;
+	
+}
+
+.form-content label
+{
+ 	color: #363534;
+	font-size: 11.8px;
+	font-family:arial;
+	font-weight:bold;
+	
+}
+
+.form-content input
+{
+	border: 1px solid #DFDFDF;
+	height: 18px;
+	width: 253px;
+}
+
+.form-bottom
+{
+	clear : both;
+	float : left;
+	background-image : url("../images/details_box_bottom.gif");
+	width : 554px;
+	height : 12px;
+
+}
+
+.form-content .message-area label
+{
+	float : left;
+	margin-left : 92px;
+}
+.form-content textarea
+{
+	height: 50px;
+    	width: 253px;
+	border: 1px solid #DFDFDF;
+	resize : vertical;
+}
+
+.form-content .input-wrapper
+{
+	overflow : auto;
+	text-align : right;
+	margin-right:26%;
+	margin-top:10px;
+}
+
+.form-content input.contact-submit
+{
+	background-image : url("../images/contact_bt.gif");
+	background-repeat: no-repeat;
+	font-size: 11.5px;
+	font-family:arial;	
+	width: 109px;
+	height: 27px;
+	background-color:transparent;
+	border : 0px;
+	color: #47838E;
+	padding-left : 13px;
+	padding-bottom : 3px;
+	cursor : pointer;
+}
+
+.form-content  .label-error
+{
+	margin-top : 0px;
+}
+.form-content  .label-error label
+{
+	margin-top : 0px;
+	color : red;
+}
